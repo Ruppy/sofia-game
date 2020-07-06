@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a0c43bf7c11a40f386c183fa9601d86, type: 3}
   m_Name: SofiaFirstTest_ActionsManager
   m_EditorClassIdentifier: 
-  customFolderPath: AdventureCreator/Scripts/Actions
+  customFolderPath: 
+  customFolderPaths:
+  - 
   allFavouriteActionData: []
   displayActionsInInspector: 1
   displayActionsInEditor: 1
@@ -727,12 +729,11 @@ MonoBehaviour:
   - fileName: ActionSceneSwitchPrevious
     category: 16
     title: Switch previous
-    description: 'Moves the Player to the previously-loaded scene. The scene must
-      be listed in Unity''s Build Settings. By default, the screen will cut to black
-      during the transition, but the last frame of the current scene can instead
-      be overlayed. This allows for cinematic effects: if the next scene fades in,
-      it will cause a crossfade effect; if the next scene doesn''t fade, it will
-      cause a straight cut.'
+    description: 'Moves the Player to the previously-loaded scene. By default, the
+      screen will cut to black during the transition, but the last frame of the current
+      scene can instead be overlayed. This allows for cinematic effects: if the next
+      scene fades in, it will cause a crossfade effect; if the next scene doesn''t
+      fade, it will cause a straight cut.'
     isEnabled: 1
     color: {r: 1, g: 1, b: 1, a: 1}
   - fileName: ActionFootstepSounds
